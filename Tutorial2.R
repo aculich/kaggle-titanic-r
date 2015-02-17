@@ -3,9 +3,9 @@
 # Full guide available at http://trevorstephens.com/
 
 # Set working directory and import datafiles
-setwd("~/Kaggle/Titanic")
-train <- read.csv("train.csv")
-test <- read.csv("test.csv")
+setwd("~/kaggle-titanic-r")
+train <- read.csv("./data/train.csv")
+test <- read.csv("./data/test.csv")
 
 # Look at gender patterns
 summary(train$Sex)
